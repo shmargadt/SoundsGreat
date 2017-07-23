@@ -4,6 +4,9 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 #
+# client ID: 340164914308-jir62eulreo897bgqda8mq9cuus5bku4.apps.googleusercontent.com
+# client secret: aiqBJBqJH3DHO5DCPAl7P1qc
+# API key: AIzaSyCBypKXl1FR6_cMyFoHALh4REO118do6Vk
 default: &default
   adapter: sqlite3
   pool: 5

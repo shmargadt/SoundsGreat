@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module Starterapp
+module soundsgreat
   class Application < Rails::Application
 
     config.middleware.insert_before 0, 'Rack::Cors' do
@@ -16,7 +16,7 @@ module Starterapp
       end
     end
 
-      config.assets.paths << Rails.root.join('node_modules')
+    config.assets.paths << Rails.root.join('node_modules')
     config.assets.enabled = true
 
     config.active_record.raise_in_transactional_callbacks = true

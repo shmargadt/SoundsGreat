@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
       format.json { render json: {some: 'key logger'} }
     end
   end
+
+  def get_youtube_statistics
+    
+  end
 end
