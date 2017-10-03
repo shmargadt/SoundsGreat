@@ -1,9 +1,17 @@
-<div class='counter-heading'>Welcome to {{title}} !!</div>
 <br>
-<h2>My Counter</h2>
+<h2>User Activity</h2>
 <div>
   Count: {{ count$ | async }}
   <button (click)="actions.increment()">+</button>
   <button (click)="actions.decrement()">-</button>
 </div>
 
+
+<div style="display: block">
+  <canvas baseChart
+          [data]="pieChartData"
+          [labels]="pieChartLabels"
+          [chartType]="pieChartType"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"></canvas>
+</div>

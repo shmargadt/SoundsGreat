@@ -11,9 +11,22 @@ import { CounterActions } from './counter.actions';
   providers: [CounterActions]
 })
 export class CounterComponent {
-  title = 'CounterComponent';
+  title = 'User Activity';
   @select(state => state.counter.count) readonly count$: Observable<number>;
 
   constructor(private actions: CounterActions) {}
+
+  public pieChartLabels:string[] = ['Mouse events', 'KeyBoard events'];
+  public pieChartData:number[] = [300, 100];
+  public pieChartType:string = 'pie';
+ 
+  // events
+  public chartClicked(e:any):void {
+    console.log(e);
+  }
+ 
+  public chartHovered(e:any):void {
+    console.log(e);
+  }
 
 }

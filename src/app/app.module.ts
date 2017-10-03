@@ -19,6 +19,7 @@ import { composeReducers, defaultFormReducer } from '@angular-redux/form';
 
 import { rootReducer } from './app.reducer'
 import { IAppState, INITIAL_STATE } from './app.state'
+import { ChartsModule } from 'ng2-charts/ng2-charts';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { IAppState, INITIAL_STATE } from './app.state'
     RouterModule.forRoot(routes),
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpModule,  
+    ChartsModule,
     NgReduxModule
   ],
   providers: [

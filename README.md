@@ -1,4 +1,4 @@
-# Angular-redux Template
+# Sounds Great
 
 This project is meant to serve as a template for projects based on Angular with the state
 maintained in a Redux store.
