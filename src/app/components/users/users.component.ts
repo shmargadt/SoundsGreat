@@ -13,6 +13,9 @@ export class UsersComponent {
 
   @select(state => state.users.names) readonly names$: Observable<number>;
 
+
+  
+
   constructor(private actions: UsersActions) {}
 
   public lineChartData:Array<any> = [

@@ -1,3 +1,16 @@
 .project-title {
   color: orange;
 }
+.user-tab {
+  width: 100%;
+  padding-right: 5px;
+}
+.users-component{
+  height: 400px;
+  width: 100%;
+}
+
+.counter-component{
+  height: 400px;
+  width: 100%;
+}

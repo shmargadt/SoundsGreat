@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sounds Great';
+
+
+  public UsersTabs:Array<any> = [
+          { TabName: 'Amitai', routerLink: "/counter"}, 
+          { TabName: 'Ohad', routerLink: "/counter"}, 
+          { TabName: 'Noam', routerLink: "/counter"}];
 }

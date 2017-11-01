@@ -2,8 +2,10 @@
   {{title}}
 </h1>
 <nav>
-  <a routerLink="/users" routerLinkActive="active">Youtube Data</a>
-  <a routerLink="/counter" routerLinkActive="active">User Activity</a>
+  <a *ngFor="let UsersTab of UsersTabs" 
+     routerLink={{UsersTab.routerLink}} 
+     class="user-tab"
+     routerLinkActive="active">{{UsersTab.TabName}}</a>
 </nav>
 
 <content>
