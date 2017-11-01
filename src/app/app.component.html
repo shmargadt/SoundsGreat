@@ -1,6 +1,7 @@
 <h1 class="project-title">
   {{title}}
 </h1>
+<app-progress-circle [progress]='70' [color]='"blue"'></app-progress-circle>
 <nav>
   <a *ngFor="let UsersTab of UsersTabs" 
      routerLink={{UsersTab.routerLink}} 
