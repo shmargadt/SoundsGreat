@@ -32,4 +32,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
+## Logger
 
+The loggers track mouse movements and key strokes events (not recording the key strokes only a signed that you clicked the keyboard)
+
+Run `sudo ./runloggers.sh` in the Logger Directory , two files will be created keyboardevets.txt and mouseevents.txt
+which include the logger output in a json form
