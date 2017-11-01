@@ -1,0 +1,9 @@
+<div class="clearfix">
+  
+                  <div class="c100 big"  [ngClass]="gerProgress()">
+                      <span [ngStyle]="{'color': color}" >{{progress}}%</span>
+                      <div class="slice">
+                          <div class="bar" [ngStyle]="{'border-color': color}"></div>
+                          <div class="fill" [ngStyle]="{'border-color': color}"></div>
+                      </div>
+</div>

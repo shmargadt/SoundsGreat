@@ -20,13 +20,15 @@ import { composeReducers, defaultFormReducer } from '@angular-redux/form';
 import { rootReducer } from './app.reducer'
 import { IAppState, INITIAL_STATE } from './app.state'
 import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { ProgressCircleComponent } from './progress-circle/progress-circle.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
-    UsersComponent
+    UsersComponent,
+    ProgressCircleComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
