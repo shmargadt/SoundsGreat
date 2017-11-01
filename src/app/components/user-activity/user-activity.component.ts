@@ -11,7 +11,7 @@ import { Observable } from 'rxjs/Observable';
 export class UserActivityComponent  {
 
   title = 'User Activity';
-  @select(state => state.user_activity.activities) readonly activities$: Observable<number>;
+  @select(state => state.userActivity.activities) readonly activities$: Observable<number>;
 
   constructor(private actions: UserActivityActions) {}
 

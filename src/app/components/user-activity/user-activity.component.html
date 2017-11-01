@@ -1,29 +1,40 @@
 <div class="counter-component">
-    <br>
+  <!-- <br>
   <h2>User Activity</h2>
   <div>
-      <button (click)="actions.fetchUserActivity()">Get User Activity</button>
-      <div *ngFor="let activity of acivities$ | async">
-          {{activity.title}}
-          {{activity.author_name}}
-        </div>
+    <button (click)="actions.fetchUserActivity()">Get User Activity</button>
+    <div *ngFor="let activity of activities$ | async">
+      {{activity.title}} {{activity.author_name}}
+    </div>
     <div style="display: block">
-      <canvas baseChart
-              [data]="pieChartData"
-              [labels]="pieChartLabels"
-              [chartType]="pieChartType"
-              (chartHover)="chartHovered($event)"
-              (chartClick)="chartClicked($event)"></canvas>
+      <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType" (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)"></canvas>
     </div>
   </div>
-  
+
   <h2>Youtube</h2>
   <div>
-  
+
     <app-users></app-users>
+  </div> -->
+  <div class="wrap-circle">
+    <div class="circle-elemet">
+      <div class="title-rock">Rock Music Improvment</div>
+      <app-progress-circle [progress]='70' [color]='"blue"'></app-progress-circle>
+    </div>
+    <div class="circle-elemet">
+      <div class="title-pop">Pop Music Improvment</div>
+      <app-progress-circle [progress]='54' [color]='"green"'></app-progress-circle>
+    </div>
+    <div class="circle-elemet">
+      <div class="num-of-click">
+        <div class="num-of">1272</div>
+        <div class="title-of-click">KEYBOARD CLICKS</div>
+      </div>
+      <div class="num-of-click">
+        <div class="num-of">850</div>
+        <div class="title-of-click">MOUSE CLICKS</div>
+      </div>
+    </div>
   </div>
-  </div>
-  
-  
-  
-  
+</div>

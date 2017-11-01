@@ -78,7 +78,7 @@
 .header-right-side {
   display: flex;
   flex-direction: row-reverse;
-  width: 350px;
+  width: 500px;
   padding-right: 20px;
   justify-content: space-around;
 }
@@ -114,4 +114,19 @@
 
 .title-menu-home {
   padding-top: 10px;
+}
+
+.search-container {
+  border: 1px solid grey;
+  color: grey;
+  border-radius: 25px;
+  width: 150px;
+  display: flex;
+  height: 40px;
+  align-self: center;
+  align-items: center;
+}
+.icon-search{
+  padding-left: 10px;
+  padding-right: 5px;
 }

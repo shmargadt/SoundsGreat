@@ -19,6 +19,7 @@ import { composeReducers, defaultFormReducer } from '@angular-redux/form';
 import { rootReducer } from './app.reducer'
 import { IAppState, INITIAL_STATE } from './app.state'
 import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { ProgressCircleComponent } from './progress-circle/progress-circle.component';
 import { UserActivityComponent } from './components/user-activity/user-activity.component';
 
 
@@ -26,6 +27,7 @@ import { UserActivityComponent } from './components/user-activity/user-activity.
   declarations: [
     AppComponent,
     UsersComponent,
+    ProgressCircleComponent,
     UserActivityComponent
   ],
   imports: [
