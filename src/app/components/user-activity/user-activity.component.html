@@ -3,7 +3,7 @@
   <h2>User Activity</h2>
   <div>
       <button (click)="actions.fetchUserActivity()">Get User Activity</button>
-      <div *ngFor="let activity of acivities$ | async">
+      <div *ngFor="let activity of activities$ | async">
           {{activity.title}}
           {{activity.author_name}}
         </div>

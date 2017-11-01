@@ -15,10 +15,10 @@ export const INITIAL_USER_ACTIVITY = {
 
 export interface IAppState {
   users: IUsersState;
-  usersActivity: IUserActivityState;
+  userActivity: IUserActivityState;
   router?: any;
 }
 export const INITIAL_STATE: IAppState = {
   users: INITIAL_STATE_USER,
-  usersActivity: INITIAL_USER_ACTIVITY
+  userActivity: INITIAL_USER_ACTIVITY
 };
