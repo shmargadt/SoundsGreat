@@ -1,22 +1,4 @@
 <div class="counter-component">
-  <!-- <br>
-  <h2>User Activity</h2>
-  <div>
-    <button (click)="actions.fetchUserActivity()">Get User Activity</button>
-    <div *ngFor="let activity of activities$ | async">
-      {{activity.title}} {{activity.author_name}}
-    </div>
-    <div style="display: block">
-      <canvas baseChart [data]="pieChartData" [labels]="pieChartLabels" [chartType]="pieChartType" (chartHover)="chartHovered($event)"
-        (chartClick)="chartClicked($event)"></canvas>
-    </div>
-  </div>
-
-  <h2>Youtube</h2>
-  <div>
-
-    <app-users></app-users>
-  </div> -->
   <div class="wrap-circle">
     <div class="circle-elemet">
       <div class="title-rock">Rock Music Improvment</div>
@@ -37,4 +19,6 @@
       </div>
     </div>
   </div>
+  <app-users></app-users>
+
 </div>
