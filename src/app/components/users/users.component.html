@@ -1,8 +1,11 @@
 <div class="users-component">
   <button (click)="actions.fetchUsers()">Get Youtube Data</button>
-  <div>This is Youtube Data: {{ names$ | async }}</div>
-  
-  
+  <div>This is Youtube Data: </div>
+  <div *ngFor="let name of names$ | async">
+    {{name.title}}
+    {{name.author_name}}
+  </div>
+
   
   <div class="row">
     <div class="col-md-6">

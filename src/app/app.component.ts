@@ -10,7 +10,7 @@ export class AppComponent {
 
 
   public UsersTabs:Array<any> = [
-          { TabName: 'Amitai', routerLink: "/counter"}, 
-          { TabName: 'Ohad', routerLink: "/counter"}, 
-          { TabName: 'Noam', routerLink: "/counter"}];
+          { TabName: 'Amitai', routerLink: "/user_activity"}, 
+          { TabName: 'Ohad', routerLink: "/user_activity"}, 
+          { TabName: 'Noam', routerLink: "/user_activity"}];
 }

@@ -11,24 +11,24 @@ import { routes } from './routes';
 
 import { AppComponent } from './app.component';
 import { UsersComponent } from './components/users/users.component'
-import { CounterComponent } from './components/counter/counter.component'
 
-import { CounterActions } from './components/counter/counter.actions';
 import { UsersActions } from './components/users/users.actions';
+import { UserActivityActions } from './components/user-activity/user-activity.actions';
 import { composeReducers, defaultFormReducer } from '@angular-redux/form';
 
 import { rootReducer } from './app.reducer'
 import { IAppState, INITIAL_STATE } from './app.state'
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { ProgressCircleComponent } from './progress-circle/progress-circle.component';
+import { UserActivityComponent } from './components/user-activity/user-activity.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CounterComponent,
     UsersComponent,
-    ProgressCircleComponent
+    ProgressCircleComponent,
+    UserActivityComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
@@ -40,8 +40,8 @@ import { ProgressCircleComponent } from './progress-circle/progress-circle.compo
   ],
   providers: [
     NgReduxRouter,
-    CounterActions,
-    UsersActions
+    UsersActions,
+    UserActivityActions
   ],
   bootstrap: [AppComponent]
 })
