@@ -1,13 +1,36 @@
-<h1 class="project-title">
-  {{title}}
-</h1>
-<nav>
-  <a *ngFor="let UsersTab of UsersTabs" 
-     routerLink={{UsersTab.routerLink}} 
-     class="user-tab"
-     routerLinkActive="active">{{UsersTab.TabName}}</a>
-</nav>
-
-<content>
-  <router-outlet></router-outlet>
-</content>
+<div class="header">
+  <img src="../assets/images/soundsgreat.PNG" class="sounds-logo">
+  <div class="header-right-side">
+    <div class="person" *ngFor="let UsersTab of UsersTabs">
+      <img src="../assets/images/PERSON.png">
+      <a routerLinkActive="active" routerLink={{UsersTab.routerLink}} class="header-name">{{UsersTab.TabName}}</a>
+    </div>
+    <img class="icon-header" src="../assets/images/Task.png">
+    <img class="icon-header" src="../assets/images/Notifications.png">
+  </div>
+</div>
+<div class="wrap-body">
+  <div class="side-menu">
+    <div class="menu-elemet">
+      <img class="icon-menu" src="../assets/images/noun_97189.png">
+      <div class="title-menu-home">Home</div>
+    </div>
+    <div class="menu-elemet">
+      <img class="icon-header" src="../assets/images/noun_234323_cc1.png">
+      <div class="title-menu">Events</div>
+    </div>
+    <div class="menu-elemet">
+      <img class="icon-header" src="../assets/images/people.png">
+      <div class="title-menu">Groups</div>
+    </div>
+    <div class="menu-elemet">
+      <img class="icon-header" src="../assets/images/training.png">
+      <div class="title-menu">Training</div>
+    </div>
+  </div>
+  <div class="right-body">
+    <content>
+      <router-outlet></router-outlet>
+    </content>
+  </div>
+</div>
