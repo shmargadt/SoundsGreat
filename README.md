@@ -1,12 +1,9 @@
 # Sounds Great
 
-This project is meant to serve as a template for projects based on Angular with the state
-maintained in a Redux store.
-The poroject was span off of the angular-redux project: `https://github.com/angular-redux`
+"… Results indicated that state positive affect and quality-of-work were lowest with no music, while time-on-task was longest when music was removed. Narrative responses revealed the value of music listening for positive mood change and enhanced perception on design while working..."​
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+The effect of music listening on work performance
 
-## What's in here
 
 The template includes the following:
 
@@ -19,20 +16,18 @@ The template includes the following:
 
 4. An example test for the users reducer
 
-## How to use
+# Getting Started
+
+Run `npm install`
+Run `ng build`
+Run `ng serve`
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Logger
+## Logger Logic
 
 The loggers track mouse movements and key strokes events (not recording the key strokes only a signed that you clicked the keyboard)
 Install the following: `sudo apt-get install python-tk`
@@ -40,4 +35,35 @@ Install the following: `sudo apt-get install python-tk`
 Run `sudo ./runloggers.sh` in the Logger Directory , two files will be created keyboardevets.txt and mouseevents.txt
 which include the logger output in a json form
 
-working on python 2.7
+
+# Prerequisites
+
+Angular 2 (CLI)
+Python 2.7
+
+# Running the tests
+
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+# Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+# Versioning
+
+Git
+
+# Authors
+
+Billie Thompson - Initial work - PurpleBooth
+See also the list of contributors who participated in this project.
+
+# License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+# Acknowledgments
+http://psycnet.apa.org/record/2005-03250-004
+https://angular.io/tutorial
+
