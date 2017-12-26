@@ -50,7 +50,7 @@ export class UserActivityComponent  {
     { // dark grey
       backgroundColor: '#0F2937',
       borderColor: '#770a0ab',
-      pointBackgroundColor: '#F72825',
+      pointBackgroundColor: '#0F2937',
       pointBorderColor: '#fff',
       pointHoverBackgroundColor: '#fff',
       pointHoverBorderColor: 'rgba(77,83,96,1)'
