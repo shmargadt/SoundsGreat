@@ -2,8 +2,11 @@
   <img src="../assets/images/soundsgreat.PNG" class="sounds-logo">
   <div class="header-right-side">
     <div class="person" *ngFor="let UsersTab of UsersTabs">
-      <img src="../assets/images/PERSON.png">
-      <a routerLinkActive="active" routerLink={{UsersTab.routerLink}} class="header-name">{{UsersTab.TabName}}</a>
+      <div class="header-name">
+        <a routerLinkActive="active" routerLink={{UsersTab.routerLink}} class="header-link">
+          {{UsersTab.TabName}}
+        </a>
+      </div>
     </div>
     
     <img class="icon-header" src="../assets/images/Task.png">

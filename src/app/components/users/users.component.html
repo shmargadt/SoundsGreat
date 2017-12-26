@@ -1,37 +1,8 @@
 <div class="users-component">
-  <button (click)="actions.fetchUsers()">Get User Activity</button>
-  <div>This is User Activity: </div>
-  <div *ngFor="let name of names$ | async">
-    {{name.title}}
-    {{name.author_name}}
-  </div>
-
-  
-  <div class="row">
-    <div class="col-md-6">
-      <div style="display: block;">
-      <canvas style="background-color: #0F2937; margin-left: 80px; margin-right: 80px;"
-              baseChart width="1000" height="600"
-                  [datasets]="lineChartData"
-                  [labels]="lineChartLabels"
-                  [options]="lineChartOptions"
-                  [colors]="lineChartColors"
-                  [legend]="lineChartLegend"
-                  [chartType]="lineChartType"
-                  (chartHover)="chartHovered($event)"
-                  (chartClick)="chartClicked($event)"></canvas>
-      </div>
-    </div>
-    <!-- <div class="col-md-6" style="margin-bottom: 10px">
-      <table class="table table-responsive table-condensed">
-        <tr>
-          <th *ngFor="let label of lineChartLabels">{{label}}</th>
-        </tr>
-        <tr *ngFor="let d of lineChartData">
-          <td *ngFor="let label of lineChartLabels; let j=index">{{d && d.data[j]}}</td>
-        </tr>
-      </table>
-      <button (click)="randomize()">CLICK</button>
-    </div> -->
-  </div>
+  <div style='padding-top: 20px;padding-bottom: 10px;font-size: 54px;font-weight: bold;text-align: center;'>It's sounds Great! </div>
+  <img src="../assets/images/tinnitus.jpg" style='position: absolute;height: 280px;'>
+  <div style='width: 580px;font-size: 25px;font-family: fantasy;margin-left: 440px;margin-top: 100px;'>"… Results indicated that state positive affect and quality-of-work were lowest with no music, while time-on-task was longest when music was removed. Narrative responses revealed the value of music listening for positive mood change and enhanced perception on design while working..."</div>
+  <div style='margin-left: 600px;margin-top: 20px;font-size: 20px;font-weight: bold;font-family: monospace;'>The effect of music listening on work performance​</div>
+  <div style='margin-left: 1000px;margin-top: 10px;font-family: cursive;'>-Teresa Lesiuk​</div>
+  <img src="../assets/images/physics-the-nature-of-sound.jpg" style='position: absolute;height: 280px;transform: rotate(180deg);bottom: 0px; right: 0px;'>
 </div>

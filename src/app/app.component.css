@@ -7,14 +7,51 @@
   padding-right: 5px;
 }
 
+.icon-menu{
+  cursor: pointer;
+}
+
+.icon-menu:hover {
+  
+}
+
+.icon-header{
+  cursor: pointer;
+}
+
 .users-component {
   height: 400px;
   width: 100%;
 }
 
+
 .counter-component {
   height: 400px;
   width: 100%;
+}
+
+
+
+
+.home-article {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 54px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-name{
+  width: 65px;
+  height: 65px;
+  background-image: url('../assets/images/PERSON.png');
+  cursor: pointer
+}
+.header-link{
+  position: absolute;
+  bottom: -18px;
+  left: 15px;
+  text-decoration: none;
 }
 
 .header {
@@ -63,8 +100,9 @@
   bottom: 0;
   left: 140px;
   height: calc (100% - 90px);
-  background-color: white;
+  background-color: #2770a0ab;
   overflow-y: scroll;
+  color: #0F2937;
 }
 
 .sounds-logo {
@@ -72,7 +110,10 @@
 }
 
 .person {
+  width: 65px;
+  height: 65px;
   text-align: center;
+  position: relative;
 }
 
 .header-right-side {

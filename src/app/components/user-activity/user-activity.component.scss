@@ -12,26 +12,37 @@
   .circle-elemet {
     display: flex;
     width: 266px;
+    color: #0F2937;
+    font-family: monospace;
     width: 284px;
     flex-direction: column;
     text-align: center;
-    border: 1px solid #d3d3d3;
-    background-color: #fff;
-    box-shadow: 1px 1px 12px 1px rgba(78, 77, 77, .15);
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     align-items: center;
     justify-content: center;
+    margin-bottom: 35px;
+    .title-pop {
+      padding-top: 10px;
+      padding-bottom: 15px;
+    }
+    .title-rock {
+      padding-top: 10px;
+      padding-bottom: 15px;
+    }
     .num-of {
-      font-size: 80px;
+      font-size: 50px;
       font-weight: 600;
-      color: gray;
+      color: #0F2937;
       font-family: monospace;
     }
     .title-of-click {
       font-weight: 600;
-      color: gray;
+      color: #0F2937;
     }
     .num-of-click:nth-child(1) {
-        border-bottom: 10px solid gray;
+        border-bottom: 1px solid #0F2937;
         padding-bottom: 10px;
     }
   }
