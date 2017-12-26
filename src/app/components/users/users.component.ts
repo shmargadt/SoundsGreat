@@ -16,11 +16,11 @@ export class UsersComponent {
   constructor(private actions: UsersActions) { }
 
   public lineChartData: Array<any> = [
-    { data: [65, 59, 80, 81, 56, 55, 40], label: 'Keyboard events' },
-    { data: [28, 48, 40, 19, 86, 27, 90], label: 'Mouse events' }
+    { data: [10500, 13600, 11000, 8000, 10000], label: 'Keyboard events' },
+    { data: [30000, 32000, 22000, 25000,28000], label: 'Mouse events' }
   ];
 
-  public lineChartLabels: Array<any> = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+  public lineChartLabels: Array<any> = ['No Music','Rap', 'Chillout', 'POP', 'Electronic'];
   public lineChartOptions: any = {
     responsive: false, 
     scales:{
