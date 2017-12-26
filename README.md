@@ -38,7 +38,8 @@ which include the logger output in a json form
 
 # Prerequisites
 
-Angular 2 (CLI)
+Angular 2 (CLI) 
+
 Python 2.7
 
 # Running the tests
@@ -65,5 +66,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 # Acknowledgments
 http://psycnet.apa.org/record/2005-03250-004
+
 https://angular.io/tutorial
 
