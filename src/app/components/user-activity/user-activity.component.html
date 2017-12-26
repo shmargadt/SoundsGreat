@@ -1,29 +1,24 @@
 <div class="counter-component">
-    <br>
-  <h2>User Activity</h2>
-  <div>
-      <button (click)="actions.fetchUserActivity()">Get User Activity</button>
-      <div *ngFor="let activity of activities$ | async">
-          {{activity.title}}
-          {{activity.author_name}}
-        </div>
-    <div style="display: block">
-      <canvas baseChart
-              [data]="pieChartData"
-              [labels]="pieChartLabels"
-              [chartType]="pieChartType"
-              (chartHover)="chartHovered($event)"
-              (chartClick)="chartClicked($event)"></canvas>
+  <div class="wrap-circle">
+    <div class="circle-elemet">
+      <div class="title-rock">Rap Music Improvment</div>
+      <app-progress-circle [progress]='25' [color]='"blue"'></app-progress-circle>
+    </div>
+    <div class="circle-elemet">
+      <div class="title-pop">Chillout Music Improvment</div>
+      <app-progress-circle [progress]='5' [color]='"green"'></app-progress-circle>
+    </div>
+    <div class="circle-elemet">
+      <div class="num-of-click">
+        <div class="num-of">12376</div>
+        <div class="title-of-click">KEYBOARD CLICKS</div>
+      </div>
+      <div class="num-of-click">
+        <div class="num-of">30000</div>
+        <div class="title-of-click">MOUSE MOVEMENTS</div>
+      </div>
     </div>
   </div>
-  
-  <h2>Youtube</h2>
-  <div>
-  
-    <app-users></app-users>
-  </div>
-  </div>
-  
-  
-  
-  
+  <app-users></app-users>
+
+</div>

@@ -1,6 +1,6 @@
 <div class="users-component">
-  <button (click)="actions.fetchUsers()">Get Youtube Data</button>
-  <div>This is Youtube Data: </div>
+  <button (click)="actions.fetchUsers()">Get User Activity</button>
+  <div>This is User Activity: </div>
   <div *ngFor="let name of names$ | async">
     {{name.title}}
     {{name.author_name}}
@@ -10,7 +10,8 @@
   <div class="row">
     <div class="col-md-6">
       <div style="display: block;">
-      <canvas baseChart width="400" height="400"
+      <canvas style="background-color: #0F2937; margin-left: 80px; margin-right: 80px;"
+              baseChart width="1000" height="600"
                   [datasets]="lineChartData"
                   [labels]="lineChartLabels"
                   [options]="lineChartOptions"
@@ -21,7 +22,7 @@
                   (chartClick)="chartClicked($event)"></canvas>
       </div>
     </div>
-    <div class="col-md-6" style="margin-bottom: 10px">
+    <!-- <div class="col-md-6" style="margin-bottom: 10px">
       <table class="table table-responsive table-condensed">
         <tr>
           <th *ngFor="let label of lineChartLabels">{{label}}</th>
@@ -31,6 +32,6 @@
         </tr>
       </table>
       <button (click)="randomize()">CLICK</button>
-    </div>
+    </div> -->
   </div>
 </div>
