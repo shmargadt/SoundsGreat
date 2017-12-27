@@ -59,9 +59,6 @@ Tamir Ram - @tamiram
 Shaul Efraim - @shaule  
 Moran Nissim - @Moran271  
 
-# License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
 # Acknowledgments
 http://psycnet.apa.org/record/2005-03250-004
