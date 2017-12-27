@@ -54,10 +54,10 @@ The template includes the following:
 
 # Authors
 
-Tomer Shmargad - @shmargadt
-Tamir Ram - @tamiram
-Shaul Efraim - @shaule
-Moran Nissim - @Moran271
+Tomer Shmargad - @shmargadt  
+Tamir Ram - @tamiram  
+Shaul Efraim - @shaule  
+Moran Nissim - @Moran271  
 
 # License
 
