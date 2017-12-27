@@ -2,19 +2,7 @@
 
 "… Results indicated that state positive affect and quality-of-work were lowest with no music, while time-on-task was longest when music was removed. Narrative responses revealed the value of music listening for positive mood change and enhanced perception on design while working..."​
 
-The effect of music listening on work performance
-
-
-The template includes the following:
-
-
-1. Two components each having a reducer and a root reducer in app.reducer.ts. The intention here is NOT to have a reducer for each component in the projct, rather only for main components, generally the ones representing major parts of the app. For example complete tabs
-
-2. A router for selecting between the components
-
-3. Both components dispaly how to perform async actions with state changes. The counter component has a timer set when clicking the '+' button, and the users component performs an ajax call
-
-4. An example test for the users reducer
+The effect of music listening on work performance, Research by Teresa Lesiuk 
 
 # Getting Started
 
@@ -51,14 +39,25 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-# Versioning
+# Template
 
-Git
+The template includes the following:
+
+
+1. Two components each having a reducer and a root reducer in app.reducer.ts. The intention here is NOT to have a reducer for each component in the projcet, rather only for main components, generally the ones representing major parts of the app. 
+
+2. A router for selecting between the components
+
+3. Both components dispaly how to perform async actions with state changes.
+
+4. An example test for the users reducer
 
 # Authors
 
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
+Tomer Shmargad - @shmargadt
+Tamir Ram - @tamiram
+Shaul Efraim - @shaule
+Moran Nissim - @Moran271
 
 # License
 
